@@ -32,7 +32,7 @@ func main() {
 		},
 	)
 	srv := micro.NewService(
-		micro.Name("go.micro.service.works"),
+		micro.Name("go.micro.service.arealogs"),
 		micro.Version("latest"),
 		micro.Address(":8083"),
 		micro.Registry(consulRegistry),
