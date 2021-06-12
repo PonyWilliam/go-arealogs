@@ -21,7 +21,7 @@ message Area{
 message ALog{
 	int64 AreaID = 1;
 	int64 WID = 2;
-	repeated int64 PID = 3;
+	string PID = 3;
 	string Content = 4;
 }
 message Log{
@@ -30,7 +30,7 @@ message Log{
 	int64 WID = 3;
 	string Content = 4;
 	string Time = 5;
-	repeated int64 PID = 6;
+	string PID = 6;
 }
 message Logs{
 	repeated Log Logs = 1;
