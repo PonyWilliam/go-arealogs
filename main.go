@@ -1,9 +1,9 @@
 package main
 
 import (
-	"arealogs/handler"
-	"arealogs/models"
-	arealogs "arealogs/proto/arealogs"
+	"github.com/PonyWilliam/go-arealogs/handler"
+	"github.com/PonyWilliam/go-arealogs/models"
+	arealogs "github.com/PonyWilliam/go-arealogs/proto/arealogs"
 	common "github.com/PonyWilliam/go-common"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"

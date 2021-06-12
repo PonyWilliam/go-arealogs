@@ -44,8 +44,8 @@
       <change beforePath="$PROJECT_DIR$/../area/proto/area.pb.micro.go" beforeDir="false" afterPath="$PROJECT_DIR$/../area/proto/area.pb.micro.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../area/proto/area.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../area/proto/area.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/arealogs.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/arealogs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../borrow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../borrow/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../borrow/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow/Makefile" afterDir="false" />

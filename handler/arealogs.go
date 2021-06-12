@@ -1,13 +1,13 @@
 package handler
 
 import (
-	"arealogs/models"
 	"context"
+	"github.com/PonyWilliam/go-arealogs/models"
 	"github.com/jinzhu/gorm"
 	"strconv"
 	"time"
 
-	arealogs "arealogs/proto/arealogs"
+	arealogs "github.com/PonyWilliam/go-arealogs/proto/arealogs"
 )
 
 
