@@ -57,7 +57,7 @@ func main() {
 
 	// Initialise service
 	srv.Init()
-
+	go common.PrometheusBoot("5007")
 	// Register Handler
 	_ = arealogs.RegisterAreaLogsHandler(srv.Server(), &handler.Arealogs{Db: db})
 	if err := srv.Run(); err != nil {
