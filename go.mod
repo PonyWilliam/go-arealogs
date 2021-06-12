@@ -1,4 +1,4 @@
-module arealogs
+module github.com/PonyWilliam/go-arealogs
 
 go 1.14
 

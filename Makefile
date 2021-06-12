@@ -19,4 +19,7 @@ test:
 
 .PHONY: docker
 docker:
-	docker build . -t arealogs-service:latest
+	docker build -t ponywilliam/go-arealogs .
+	docker tag ponywilliam/go-arealogs ponywilliam/go-work
+	docker push ponywilliam/go-arealogs
+
