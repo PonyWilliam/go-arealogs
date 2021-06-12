@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package go.micro.service.arealogs;
+
+service AreaLogs {
+	rpc AddLog(ALog) returns(Status);
+	rpc FindAll(Null) returns(Logs);
+	rpc FindByID(Id) returns(Log);
+	rpc FindByAID(Area) returns(Logs);
+	rpc FindByWID(Worker) returns(Logs);
+}
+message Worker{
+	int64 id = 1;
+}
+message Id{
+	int64 id = 1;
+}
+message Area{
+	int64 aid = 1;
+}
+message ALog{
+	int64 AreaID = 1;
+	int64 WID = 2;
+	repeated int64 PID = 3;
+	string Content = 4;
+}
+message Log{
+	int64 ID = 1;
+	int64 AreaID = 2;
+	int64 WID = 3;
+	string Content = 4;
+	string Time = 5;
+	repeated int64 PID = 6;
+}
+message Logs{
+	repeated Log Logs = 1;
+}
+message Null{}
+
+message Status{
+	bool result = 1;
+	string response = 2;
+}
