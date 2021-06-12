@@ -34,7 +34,7 @@ func main() {
 	srv := micro.NewService(
 		micro.Name("go.micro.service.arealogs"),
 		micro.Version("latest"),
-		micro.Address(":8083"),
+		micro.Address(":8084"),
 		micro.Registry(consulRegistry),
 		micro.WrapHandler(ratelimit.NewHandlerWrapper(common.QPS)),
 		micro.WrapHandler(prometheus.NewHandlerWrapper()),
